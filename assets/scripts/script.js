@@ -19,65 +19,65 @@ let currentQuestionIndex = 0; // Programming languages start counting at zero
 // each option is its own object {} with two properties: text and point
 const questions = [
     {
-        text: 'What are you most likely to be doing when the team is losing?',
+        text: 'What is your first thought when the team is losing?',
         options: [
             {
                 text: 'Try to get more kills',
                 point: 'dps',
             },
             {
-                text: 'Watching from a corner, hoping someone interesting shows up',
+                text: 'Thinking about how to keep the team alive',
                 point: 'support',
             },
             {
-                text: 'Partying! Dressed up, chatting it up, dancing... maybe a little loud',
+                text: 'How to stop the player on the other team from having the most impact',
                 point: 'tank',
             },
             {
-                text: 'I would help set up beforehand and make sure everything goes smoothly',
+                text: 'Where are we lacking the most?',
                 point: 'flex',
             },
         ],
     },
     {
-        text: 'How would you prefer to unwind?',
+        text: 'How would you prefer to to get MVP?',
         options: [
             {
-                text: 'Take a walk outside',
+                text: 'Getting the most kills in a short amount of time',
                 point: 'dps',
             },
             {
-                text: 'Lie out in the sun',
+                text: 'Getting a clutch heal to keep the team in the game',
                 point: 'support',
             },
             {
-                text: 'Go window shopping',
+                text: 'Sacrificing yourself to keep the team alive',
                 point: 'tank',
             },
             {
-                text: 'Sit at home and do nothing',
+                text: 'Don\'t need mvp as long as the team gets the win',
                 point: 'flex',
             },
         ],
     },
     {
-        text: 'How do you deal with stress?',
+        text: 'What do you do when your team is winning?',
         options: [
             {
-                text: 'Exercise',
+                text: 'Try out a sniper ',
                 point: 'dps',
             },
             {
-                text: 'Tell someone off',
+                text: 'Try to get a few kills',
                 point: 'support',
             },
             {
                 // inside a string, you have to escape quote marks with a \
-                text: 'Share how I\'m feeling',
+                text: 'Try some shield bashing',
                 point: 'tank',
             },
             {
-                text: 'Have some alone time',
+                text: 'Get some practice with a role you haven\'t used as much',
                 point: 'flex',
             },
         ],
@@ -86,41 +86,41 @@ const questions = [
         text: 'What sounds like the most fun to you?',
         options: [
             {
-                text: 'Playing sports or video games with friends',
+                text: 'Getting a triple kill with one bullet fired ',
                 point: 'dps',
             },
             {
-                text: 'Reading a book',
+                text: 'healing everybody all at once when they\'re all about to die',
                 point: 'support',
             },
             {
-                text: 'Just hanging out and talking with friends',
+                text: 'Shutting down he enemy dps',
                 point: 'tank',
             },
             {
-                text: 'Making things, or cleaning the house',
+                text: 'Being able to freely swap roles at your leisure',
                 point: 'flex',
             },
         ],
     },
     {
-        text: 'What do you look for in a friend?',
+        text: 'What do you look for in a teammate?',
         options: [
             {
-                text: 'Someone who is fun and energetic',
+                text: 'Someone who doesn\'t get in the way of kills',
                 point: 'dps',
             },
             {
-                text: 'Someone who can be both quiet and playful',
+                text: 'Someone who comes to you when they need healing',
                 point: 'support',
             },
             {
-                text: 'Someone who I can share my secrets with',
+                text: 'Someone who stays behind you while you push up and absorb damage',
                 point: 'tank',
             },
             {
                 // inside a string, you have to escape quote marks with a \
-                text: 'Someone who doesn\'t have too many emotions',
+                text: 'Someone who doesn\'t is just as flexible as you are ',
                 point: 'flex',
             },
         ],
