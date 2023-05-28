@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/grid.css"/>
+</head>
+<body>
+
+    <div id="quizContainer">
+
+        <h1>What kind of Fps Player are you?</h1>
+
+        <button id="takeAgain" style="display: none; float: right;" onclick="window.location.reload()">Take Again</button>
+
+        <div id="quizZone">
+
+            <p>Click <strong>Start Quiz</strong> to find out!</p>
+
+            <button onclick="startQuiz()">Start Quiz</button>
+
+        </div>
+
+        <!-- Comments in HTML look like this -->
+        <div>
+
+            <!--
+                HTML comments can span multiple lines.
+                The <div> around this section^^ isn't necessary.
+                Feel free to delete it!
+                Don't forget to delete the closing tag!
+
+                The results below are hidden by CSS when the page loads.
+                When the quiz is finished, JavaScript will make the correct result visible.
+            -->
+            <div id="answer-DPS" class="answer dps hide">
+                <h4>You are DPS!</h4>
+                <p>
+                    <img src="./assets/images/genji-overwatch-4k-2020-wy.jpg" />
+                    Pros: determined, energetic, confident
+                    <br>
+                    Cons: sometimes care more about numbers, can work by alone rather than with a team, to prideful to switch to a better role
+                    </ul>
+                </p>
+            </div>
+            
+            <div id="answer-support" class="answer support hide">
+                <h4>You are a Support!</h4>
+                <p>
+                    <img src="./assets/images/mercy-overwatch.jpg" />
+                    Pros: keeps the team alive, the backbone that can make or break the teams success
+                    <br>
+                    Cons: easy to focus on teammate rather than spread the heals, can go rouge (looking at you Moira mains), can get impatient and push to far up with the tanks
+                </p>
+            </div>
+            
+            <div id="answer-tank" class="answer tank hide">
+                <h4>You are a Tank!</h4>
+                <p>
+                    <img src="./assets/images/reinhardt-in-overwatch-ap-2048x1152.jpg" />
+                    Pros: willing to protect the team from damage, takes the job few people want to do , can change the course of game by sticking to the role
+                    <br>
+                    Cons: can be to caught up with causing damage, sometimes will push to far up with no support and be a sitting duck 
+                </p>
+            </div>
+            
+            <div id="answer-flex" class="answer flex hide">
+                <h4>You are a Flex!</h4>
+                <p>
+                    <img src="./assets/images/overwatch-game-all-heroes.jpg" />
+                    Pros: jack of all trades, fill in any spot where the team needs it, selfless and cares more about getting the win than playing your favorite character
+                    <br>
+                    Cons: jack of all trades...king of nothing, can fall in the trap of still having favorites 
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
